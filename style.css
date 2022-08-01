@@ -1,0 +1,66 @@
+* {
+  font-family: Poppins;
+  padding: 6px;
+}
+/* ----- nav bar ------- */
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  list-style: none;
+}
+.grow-list {
+  flex: 1;
+  align-items: flex-start;
+  margin-right: 30%;
+  margin-left: 5%;
+}
+.list-item:hover {
+  color: black;
+  font-weight: bolder;
+}
+.logo-img {
+  width: 150px;
+}
+/* -------- button ---------- */
+.nav-button {
+  padding: 15px 25px;
+  background-color: rgb(92, 104, 211);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+/* ------ down banner  -------- */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* ----- down left banner ---- */
+span {
+  color: #4e55cf;
+}
+ p>span{
+  font-weight: 900px;
+  color: #4e55cf;
+}
+.heading-text {
+  font-size: 55px;
+}
+.description {
+  margin-top: -40px;
+}
+.btn {
+  margin-top: 40px;
+  padding: 20px 60px;
+  font-size: 15px;
+}
+/* ----- down right banner ------ */
+.down-image {
+  width: 45rem;
+}
